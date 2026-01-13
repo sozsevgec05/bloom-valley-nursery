@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Bloom Valley Nursery</h1>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="about.html">About Us</a>
+  <a href="custom.html">Plant Care</a>
+</nav>
+
+<main>
+  <button id="view-cart">View Cart</button>
+
+  <h2>Gallery</h2>
+  <p>Browse our featured plants and gardening products.</p>
+
+  <section class="grid">
+
+    <article class="card">
+      <img src="images/Client1_AppleTree.png" alt="Apple Tree">
+      <h3>Apple Tree</h3>
+      <p>Fruit tree ideal for home gardens.</p>
+      <button class="add-to-cart" data-item="Apple Tree">Add to Cart</button>
+    </article>
+
+    <article class="card">
+      <img src="images/Client1_BirchTree.png" alt="Birch Tree">
+      <h3>Birch Tree</h3>
+      <p>Decorative tree with white bark.</p>
+      <button class="add-to-cart" data-item="Birch Tree">Add to Cart</button>
+    </article>
+
+    <article class="card">
+      <img src="images/Client1_MapleTree.png" alt="Maple Tree">
+      <h3>Maple Tree</h3>
+      <p>Shade tree with colorful seasonal leaves.</p>
+      <button class="add-to-cart" data-item="Maple Tree">Add to Cart</button>
+    </article>
+
+    <article class="card">
+      <img src="images/Client1_AloePlant.png" alt="Aloe Vera Plant">
+      <h3>Aloe Vera Plant</h3>
+      <p>Low-maintenance indoor succulent.</p>
+      <button class="add-to-cart" data-item="Aloe Vera Plant">Add to Cart</button>
+    </article>
+
+    <article class="card">
+      <img src="images/Client1_SpiderPlant.png" alt="Spider Plant">
+      <h3>Spider Plant</h3>
+      <p>Easy-care indoor plant.</p>
+      <button class="add-to-cart" data-item="Spider Plant">Add to Cart</button>
+    </article>
+
+    <article class="card">
+      <img src="images/Client1_StringofPearls.png" alt="String of Pearls">
+      <h3>String of Pearls</h3>
+      <p>Decorative trailing succulent.</p>
+      <button class="add-to-cart" data-item="String of Pearls">Add to Cart</button>
+    </article>
+
+    <article class="card">
+      <img src="images/Client1_BirdHouse.png" alt="Birdhouse">
+      <h3>Birdhouse</h3>
+      <p>Attract birds to your garden.</p>
+      <button class="add-to-cart" data-item="Birdhouse">Add to Cart</button>
+    </article>
+
+    <article class="card">
+      <img src="images/Client1_PottingSoil.png" alt="Potting Soil">
+      <h3>Potting Soil</h3>
+      <p>Nutrient-rich soil for plants.</p>
+      <button class="add-to-cart" data-item="Potting Soil">Add to Cart</button>
+    </article>
+
+    <article class="card">
+      <img src="images/Client1_WateringCan.png" alt="Watering Can">
+      <h3>Watering Can</h3>
+      <p>Tool for controlled watering.</p>
+      <button class="add-to-cart" data-item="Watering Can">Add to Cart</button>
+    </article>
+
+  </section>
+</main>
+
+<!-- SHOPPING CART MODAL -->
+<div id="cart-modal" class="modal">
+  <div class="modal-content">
+    <button id="close-cart">X</button>
+    <h2>Shopping Cart</h2>
+    <ul id="cart-items"></ul>
+    <button id="clear-cart">Clear Cart</button>
+    <button id="process-order">Process Order</button>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2026 Bloom Valley Nursery</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
